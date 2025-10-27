@@ -3,8 +3,6 @@ package org.example;
 import java.util.ArrayList;
 
 public class App {
-
-
   public static void main(String[] args) {
     FuzzyListGenerator generator = new FuzzyListGenerator();
     FuzzyListGenerator generator2 = new FuzzyListGenerator(2);
@@ -14,7 +12,6 @@ public class App {
     ArrayList<Fuzzy> randomFuzzies = generator.randomizedRainbowFuzzies();
     ArrayList<Fuzzy> sortedFuzzies2 = generator2.sortedRainbowFuzzies();
     
- 
     int testOne = finder.linearSearch(sortedFuzzies);
     int testTwo = finder.binarySearch(0, sortedFuzzies.size(), sortedFuzzies);
     int testThree = finder.linearSearch(randomFuzzies);

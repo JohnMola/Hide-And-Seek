@@ -17,7 +17,6 @@ class AppTest {
     ArrayList<Fuzzy> randomFuzzies = generator.randomizedRainbowFuzzies();
     ArrayList<Fuzzy> sortedFuzzies2 = generator2.sortedRainbowFuzzies();
     
- 
     int testOne = finder.linearSearch(sortedFuzzies);
     int testTwo = finder.binarySearch(0, sortedFuzzies.size(), sortedFuzzies);
     int testThree = finder.linearSearch(randomFuzzies);

@@ -11,8 +11,6 @@ public class FuzzyFinder {
         return -1;
     }
 
-    
-
     public int binarySearch(int l, int u, ArrayList<Fuzzy> f) {
         if (u >= l) {
             int m = (l + u) / 2;
